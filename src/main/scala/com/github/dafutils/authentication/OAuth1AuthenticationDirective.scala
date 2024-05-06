@@ -1,8 +1,8 @@
 package com.github.dafutils.authentication
 
-import pekko.http.scaladsl.model.HttpRequest
-import pekko.http.scaladsl.server.Directive1
-import pekko.http.scaladsl.server.Directives.{authenticateOrRejectWithChallenge, extractExecutionContext, extractRequest}
+import org.apache.pekko.http.scaladsl.model.HttpRequest
+import org.apache.pekko.http.scaladsl.server.Directive1
+import org.apache.pekko.http.scaladsl.server.Directives.{authenticateOrRejectWithChallenge, extractExecutionContext, extractRequest}
 import com.github.dafutils.authentication
 import com.typesafe.scalalogging.StrictLogging
 

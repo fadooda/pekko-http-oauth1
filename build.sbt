@@ -1,11 +1,11 @@
 import sbt.Keys.publishTo
 
 val PROJECT_HOMEPAGE_URL = "https://github.com/dafutils/pekko-http-oauth1"
-val PEKKO_HTTP_VERSION = "10.0.10"
+val PEKKO_HTTP_VERSION = "1.0.1"
+val PEKKO_VERSION = "1.0.2"
 val SIGNPOST_VERSION = "1.2.1.2"
 val BINTRAY_USER = System.getenv("BINTRAY_USER")
 val BINTRAY_PASSWORD = System.getenv("BINTRAY_PASS")
-val PEKKO_VERSION = "2.5.3"
 
 lazy val versionSettings = Seq(
   //  The 'version' setting is not set on purpose: its value is generated automatically by the sbt-dynver plugin
@@ -74,7 +74,7 @@ lazy val pekkohttpoauth1 = (project in file("."))
   .settings(
     scalaVersion := "2.12.7",
 
-    organization := "com.github.dafutils",
+    organization := "com.github.fadooda",
 
     name := "pekko-http-oauth1",
 
@@ -89,6 +89,7 @@ lazy val pekkohttpoauth1 = (project in file("."))
 
       "org.apache.pekko" %% "pekko-http" % PEKKO_HTTP_VERSION % "provided",
       "org.apache.pekko" %% "pekko-http-testkit" % PEKKO_HTTP_VERSION % "test",
+      "org.apache.pekko" %% "pekko-stream-testkit" % PEKKO_VERSION % Test,
 
       //Test
       "org.scalatest" %% "scalatest" % "3.0.4" % "test",

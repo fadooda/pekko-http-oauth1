@@ -4,12 +4,13 @@ import java.io.ByteArrayInputStream
 import java.nio.charset.StandardCharsets
 import java.util.UUID
 
-import pekko.http.scaladsl.model.StatusCodes.OK
-import pekko.http.scaladsl.model.headers.{Authorization, GenericHttpCredentials, RawHeader}
-import pekko.http.scaladsl.model.{HttpRequest, HttpResponse}
-import pekko.http.scaladsl.server.Directives._
-import pekko.http.scaladsl.server.{Directive1, Route}
-import pekko.http.scaladsl.testkit.ScalatestRouteTest
+import org.apache.pekko.http.scaladsl.model.StatusCodes.OK
+import org.apache.pekko.http.scaladsl.model.headers.{Authorization, GenericHttpCredentials, RawHeader}
+import org.apache.pekko.http.scaladsl.model.{HttpRequest, HttpResponse}
+import org.apache.pekko.http.scaladsl.server.Directives._
+import org.apache.pekko.http.scaladsl.server.{Directive1, Route}
+import org.apache.pekko.http.scaladsl.testkit.ScalatestRouteTest
+import org.apache.pekko.stream.Materializer
 import oauth.signpost.commonshttp.CommonsHttpOAuthConsumer
 import org.apache.http.client.methods.{HttpGet, HttpPost}
 import org.apache.http.entity.BasicHttpEntity

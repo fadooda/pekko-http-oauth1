@@ -2,8 +2,8 @@ package com.github.dafutils.authentication
 
 import java.time.Instant
 
-import Pekko.http.scaladsl.model.headers.{GenericHttpCredentials, HttpChallenge}
-import Pekko.http.scaladsl.server.Directives.AuthenticationResult
+import org.apache.pekko.http.scaladsl.model.headers.{GenericHttpCredentials, HttpChallenge}
+import org.apache.pekko.http.scaladsl.server.Directives.AuthenticationResult
 import org.apache.http.client.methods.HttpGet
 import org.mockito.Mockito.when
 import org.scalatest.concurrent.PatienceConfiguration.Timeout

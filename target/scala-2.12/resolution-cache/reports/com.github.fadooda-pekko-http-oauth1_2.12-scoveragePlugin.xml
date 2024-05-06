@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.github.fadooda"
+		module="pekko-http-oauth1_2.12"
+		revision="fa3dbc5f+20240506-1950-SNAPSHOT"
+		conf="scoveragePlugin"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
+		date="20240506195004"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

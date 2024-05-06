@@ -2,8 +2,8 @@ package com.github.dafutils.authentication
 
 import java.time.Instant
 
-import Pekko.http.scaladsl.model.headers.{HttpChallenge, HttpCredentials}
-import Pekko.http.scaladsl.server.directives.SecurityDirectives.AuthenticationResult
+import org.apache.pekko.http.scaladsl.model.headers.{HttpChallenge, HttpCredentials}
+import org.apache.pekko.http.scaladsl.server.directives.SecurityDirectives.AuthenticationResult
 import com.typesafe.scalalogging.StrictLogging
 
 import scala.concurrent.duration._
