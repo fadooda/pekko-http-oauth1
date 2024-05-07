@@ -2,9 +2,9 @@
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
 	<info organisation="com.github.fadooda"
 		module="pekko-http-oauth1_2.12"
-		revision="fa3dbc5f+20240506-1950-SNAPSHOT"
+		revision="a0587ef9+20240507-1537-SNAPSHOT"
 		status="integration"
-		publication="20240506195004"
+		publication="20240507153714"
 	>
 		<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html" />
 		<description homepage="https://github.com/dafutils/pekko-http-oauth1">

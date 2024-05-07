@@ -9,50 +9,50 @@
 		extra-sbtVersion="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20240506193924"/>
+		date="20240507153711"/>
 	<dependencies>
 		<module organisation="net.virtual-void" name="sbt-dependency-graph">
-			<revision name="0.9.2" status="release" pubdate="20180826131956" resolver="public" artresolver="public" homepage="http://github.com/jrudolph/sbt-dependency-graph" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="54">
+			<revision name="0.9.2" status="release" pubdate="20180826131956" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jrudolph/sbt-dependency-graph" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
 				<license name="Apache License 2.0" url="https://github.com/jrudolph/sbt-dependency-graph/raw/master/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="2627" time="293" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/net.virtual-void/sbt-dependency-graph/ivy-0.9.2.xml" searched="true" original-local-location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/net.virtual-void/sbt-dependency-graph/ivy-0.9.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.12_1.0/0.9.2/sbt-dependency-graph-0.9.2.pom"/>
+				<metadata-artifact status="no" details="" size="3596" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/net.virtual-void/sbt-dependency-graph/ivy-0.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.12_1.0/0.9.2/sbt-dependency-graph-0.9.2.pom"/>
 				<caller organisation="default" name="pekko-http-oauth1-build" conf="compile-internal, compile, provided, optional" rev="0.9.2" rev-constraint-default="0.9.2" rev-constraint-dynamic="0.9.2" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-dependency-graph" type="jar" ext="jar" status="successful" details="" size="140436" time="1118" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/net.virtual-void/sbt-dependency-graph/jars/sbt-dependency-graph-0.9.2.jar">
+					<artifact name="sbt-dependency-graph" type="jar" ext="jar" status="no" details="" size="140436" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/net.virtual-void/sbt-dependency-graph/jars/sbt-dependency-graph-0.9.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.12_1.0/0.9.2/sbt-dependency-graph-0.9.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.dwijnand" name="sbt-compat">
-			<revision name="1.2.6" status="release" pubdate="20180210190335" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" homepage="https://github.com/dwijnand/sbt-compat" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="55">
+			<revision name="1.2.6" status="release" pubdate="20180210190335" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/dwijnand/sbt-compat" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="55">
 				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2061" time="1254" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-compat/ivy-1.2.6.xml" searched="true" original-local-location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-compat/ivy-1.2.6.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.12/sbt_1.0/1.2.6/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="2061" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-compat/ivy-1.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.12/sbt_1.0/1.2.6/ivys/ivy.xml"/>
 				<caller organisation="net.virtual-void" name="sbt-dependency-graph" conf="default, compile, runtime, master" rev="1.2.6" rev-constraint-default="1.2.6" rev-constraint-dynamic="1.2.6" callerrev="0.9.2" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-compat" type="jar" ext="jar" status="successful" details="" size="3730" time="2271" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-compat/jars/sbt-compat-1.2.6.jar">
+					<artifact name="sbt-compat" type="jar" ext="jar" status="no" details="" size="3730" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-compat/jars/sbt-compat-1.2.6.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.12/sbt_1.0/1.2.6/jars/sbt-compat.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.timushev.sbt" name="sbt-updates">
-			<revision name="0.3.1" status="release" pubdate="20170730230851" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="53">
+			<revision name="0.3.1" status="release" pubdate="20170730230851" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="53">
 				<license name="BSD 3-Clause" url="https://github.com/rtimush/sbt-updates/blob/master/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="1634" time="1236" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.timushev.sbt/sbt-updates/ivy-0.3.1.xml" searched="true" original-local-location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.timushev.sbt/sbt-updates/ivy-0.3.1.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.timushev.sbt/sbt-updates/scala_2.12/sbt_1.0/0.3.1/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="1634" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.timushev.sbt/sbt-updates/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.timushev.sbt/sbt-updates/scala_2.12/sbt_1.0/0.3.1/ivys/ivy.xml"/>
 				<caller organisation="default" name="pekko-http-oauth1-build" conf="compile-internal, compile, provided, optional" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-updates" type="jar" ext="jar" status="successful" details="" size="101922" time="2481" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.timushev.sbt/sbt-updates/jars/sbt-updates-0.3.1.jar">
+					<artifact name="sbt-updates" type="jar" ext="jar" status="no" details="" size="101922" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.timushev.sbt/sbt-updates/jars/sbt-updates-0.3.1.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.timushev.sbt/sbt-updates/scala_2.12/sbt_1.0/0.3.1/jars/sbt-updates.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.dwijnand" name="sbt-dynver">
-			<revision name="2.0.0" status="release" pubdate="20170802173018" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="52">
-				<metadata-artifact status="successful" details="" size="1768" time="1271" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-dynver/ivy-2.0.0.xml" searched="true" original-local-location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-dynver/ivy-2.0.0.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-dynver/scala_2.12/sbt_1.0/2.0.0/ivys/ivy.xml"/>
+			<revision name="2.0.0" status="release" pubdate="20170802173018" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="52">
+				<metadata-artifact status="no" details="" size="1768" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-dynver/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-dynver/scala_2.12/sbt_1.0/2.0.0/ivys/ivy.xml"/>
 				<caller organisation="default" name="pekko-http-oauth1-build" conf="compile-internal, compile, provided, optional" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-dynver" type="jar" ext="jar" status="successful" details="" size="52113" time="2423" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-dynver/jars/sbt-dynver-2.0.0.jar">
+					<artifact name="sbt-dynver" type="jar" ext="jar" status="no" details="" size="52113" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-dynver/jars/sbt-dynver-2.0.0.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-dynver/scala_2.12/sbt_1.0/2.0.0/jars/sbt-dynver.jar"/>
 					</artifact>
 				</artifacts>
@@ -64,19 +64,19 @@
 				<metadata-artifact status="no" details="" size="3776" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.codacy/sbt-codacy-coverage/ivy-1.3.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/codacy/sbt-codacy-coverage_2.12_1.0/1.3.15/sbt-codacy-coverage-1.3.15.pom"/>
 				<caller organisation="default" name="pekko-http-oauth1-build" conf="compile-internal, compile, provided, optional" rev="1.3.15" rev-constraint-default="1.3.15" rev-constraint-dynamic="1.3.15" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-codacy-coverage" type="jar" ext="jar" status="successful" details="" size="17652" time="922" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.codacy/sbt-codacy-coverage/jars/sbt-codacy-coverage-1.3.15.jar">
+					<artifact name="sbt-codacy-coverage" type="jar" ext="jar" status="no" details="" size="17652" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.codacy/sbt-codacy-coverage/jars/sbt-codacy-coverage-1.3.15.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/codacy/sbt-codacy-coverage_2.12_1.0/1.3.15/sbt-codacy-coverage-1.3.15.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.sun.activation" name="javax.activation">
-			<revision name="1.2.0" status="release" pubdate="20170906191311" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+			<revision name="1.2.0" status="release" pubdate="20170906191311" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
 				<license name="CDDL/GPLv2+CE" url="https://github.com/javaee/activation/blob/master/LICENSE.txt"/>
-				<metadata-artifact status="successful" details="" size="6515" time="295" location="/Users/fady.ibrahim/.ivy2/cache/com.sun.activation/javax.activation/ivy-1.2.0.xml" searched="true" original-local-location="/Users/fady.ibrahim/.ivy2/cache/com.sun.activation/javax.activation/ivy-1.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.pom"/>
+				<metadata-artifact status="no" details="" size="5617" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.sun.activation/javax.activation/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.pom"/>
 				<caller organisation="com.codacy" name="sbt-codacy-coverage" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.3.15"/>
 				<artifacts>
-					<artifact name="javax.activation" type="jar" ext="jar" status="successful" details="" size="78030" time="764" location="/Users/fady.ibrahim/.ivy2/cache/com.sun.activation/javax.activation/jars/javax.activation-1.2.0.jar">
+					<artifact name="javax.activation" type="jar" ext="jar" status="no" details="" size="78030" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.sun.activation/javax.activation/jars/javax.activation-1.2.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -88,19 +88,19 @@
 				<metadata-artifact status="no" details="" size="3393" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-json-circe_2.12/ivy-2.0.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/propensive/rapture-json-circe_2.12/2.0.0-M8/rapture-json-circe_2.12-2.0.0-M8.pom"/>
 				<caller organisation="com.codacy" name="sbt-codacy-coverage" conf="default, compile, runtime, master" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="1.3.15"/>
 				<artifacts>
-					<artifact name="rapture-json-circe_2.12" type="jar" ext="jar" status="successful" details="" size="18602" time="1981" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-json-circe_2.12/jars/rapture-json-circe_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-json-circe_2.12" type="jar" ext="jar" status="no" details="" size="18602" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-json-circe_2.12/jars/rapture-json-circe_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-json-circe_2.12/2.0.0-M8/rapture-json-circe_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.circe" name="circe-jawn_2.12">
-			<revision name="0.7.0" status="release" pubdate="20170117112901" resolver="public" artresolver="public" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+			<revision name="0.7.0" status="release" pubdate="20170117112901" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1957" time="352" location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-jawn_2.12/ivy-0.7.0.xml" searched="true" original-local-location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-jawn_2.12/ivy-0.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0/circe-jawn_2.12-0.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="3081" time="0" location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-jawn_2.12/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0/circe-jawn_2.12-0.7.0.pom"/>
 				<caller organisation="com.propensive" name="rapture-json-circe_2.12" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="circe-jawn_2.12" type="jar" ext="jar" status="successful" details="" size="12452" time="690" location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-jawn_2.12/jars/circe-jawn_2.12-0.7.0.jar">
+					<artifact name="circe-jawn_2.12" type="jar" ext="jar" status="no" details="" size="12452" time="0" location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-jawn_2.12/jars/circe-jawn_2.12-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0/circe-jawn_2.12-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -113,7 +113,7 @@
 				<caller organisation="io.circe" name="circe-jawn_2.12" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.7.0"/>
 				<caller organisation="com.propensive" name="rapture-json-circe_2.12" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="circe-core_2.12" type="jar" ext="jar" status="successful" details="" size="791099" time="11453" location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-core_2.12/jars/circe-core_2.12-0.7.0.jar">
+					<artifact name="circe-core_2.12" type="jar" ext="jar" status="no" details="" size="791099" time="0" location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-core_2.12/jars/circe-core_2.12-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.0/circe-core_2.12-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -125,7 +125,7 @@
 				<metadata-artifact status="no" details="" size="3494" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0.pom"/>
 				<caller organisation="io.circe" name="circe-core_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.7.0"/>
 				<artifacts>
-					<artifact name="cats-core_2.12" type="jar" ext="jar" status="successful" details="" size="2696252" time="14174" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-0.9.0.jar">
+					<artifact name="cats-core_2.12" type="jar" ext="jar" status="no" details="" size="2696252" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-0.9.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -137,7 +137,7 @@
 				<metadata-artifact status="no" details="" size="2777" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0.pom"/>
 				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.9.0"/>
 				<artifacts>
-					<artifact name="cats-kernel_2.12" type="jar" ext="jar" status="successful" details="" size="4241540" time="14503" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-0.9.0.jar">
+					<artifact name="cats-kernel_2.12" type="jar" ext="jar" status="no" details="" size="4241540" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-0.9.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -149,7 +149,7 @@
 				<metadata-artifact status="no" details="" size="3078" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/cats-macros_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.9.0/cats-macros_2.12-0.9.0.pom"/>
 				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.9.0"/>
 				<artifacts>
-					<artifact name="cats-macros_2.12" type="jar" ext="jar" status="successful" details="" size="6438" time="1063" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-0.9.0.jar">
+					<artifact name="cats-macros_2.12" type="jar" ext="jar" status="no" details="" size="6438" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-0.9.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.9.0/cats-macros_2.12-0.9.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -162,7 +162,7 @@
 				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.9.0"/>
 				<caller organisation="org.typelevel" name="cats-macros_2.12" conf="compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.9.0"/>
 				<artifacts>
-					<artifact name="machinist_2.12" type="jar" ext="jar" status="successful" details="" size="33650" time="3116" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.1.jar">
+					<artifact name="machinist_2.12" type="jar" ext="jar" status="no" details="" size="33650" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -175,7 +175,7 @@
 				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.9.0"/>
 				<caller organisation="org.typelevel" name="cats-macros_2.12" conf="compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.9.0"/>
 				<artifacts>
-					<artifact name="simulacrum_2.12" type="jar" ext="jar" status="successful" details="" size="81815" time="5029" location="/Users/fady.ibrahim/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/jars/simulacrum_2.12-0.10.0.jar">
+					<artifact name="simulacrum_2.12" type="jar" ext="jar" status="no" details="" size="81815" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/jars/simulacrum_2.12-0.10.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -187,7 +187,7 @@
 				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
 				<caller organisation="com.github.mpilquist" name="simulacrum_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.10.0"/>
 				<artifacts>
-					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="successful" details="" size="3180" time="593" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar">
+					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="no" details="" size="3180" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -199,7 +199,7 @@
 				<metadata-artifact status="no" details="" size="3047" time="0" location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-numbers_2.12/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.0/circe-numbers_2.12-0.7.0.pom"/>
 				<caller organisation="io.circe" name="circe-core_2.12" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.7.0"/>
 				<artifacts>
-					<artifact name="circe-numbers_2.12" type="jar" ext="jar" status="successful" details="" size="13234" time="817" location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-numbers_2.12/jars/circe-numbers_2.12-0.7.0.jar">
+					<artifact name="circe-numbers_2.12" type="jar" ext="jar" status="no" details="" size="13234" time="0" location="/Users/fady.ibrahim/.ivy2/cache/io.circe/circe-numbers_2.12/jars/circe-numbers_2.12-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.0/circe-numbers_2.12-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -211,7 +211,7 @@
 				<metadata-artifact status="no" details="" size="3004" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.codacy/coverage-parser_2.12/ivy-2.0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/codacy/coverage-parser_2.12/2.0.7/coverage-parser_2.12-2.0.7.pom"/>
 				<caller organisation="com.codacy" name="sbt-codacy-coverage" conf="default, compile, runtime, master" rev="2.0.7" rev-constraint-default="2.0.7" rev-constraint-dynamic="2.0.7" callerrev="1.3.15"/>
 				<artifacts>
-					<artifact name="coverage-parser_2.12" type="jar" ext="jar" status="successful" details="" size="37598" time="3238" location="/Users/fady.ibrahim/.ivy2/cache/com.codacy/coverage-parser_2.12/jars/coverage-parser_2.12-2.0.7.jar">
+					<artifact name="coverage-parser_2.12" type="jar" ext="jar" status="no" details="" size="37598" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.codacy/coverage-parser_2.12/jars/coverage-parser_2.12-2.0.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/codacy/coverage-parser_2.12/2.0.7/coverage-parser_2.12-2.0.7.jar"/>
 					</artifact>
 				</artifacts>
@@ -224,7 +224,7 @@
 				<caller organisation="com.codacy" name="coverage-parser_2.12" conf="compile, runtime" rev="3.0.7" rev-constraint-default="3.0.7" rev-constraint-dynamic="3.0.7" callerrev="2.0.7"/>
 				<caller organisation="com.codacy" name="sbt-codacy-coverage" conf="default, compile, runtime, master" rev="3.0.7" rev-constraint-default="3.0.7" rev-constraint-dynamic="3.0.7" callerrev="1.3.15"/>
 				<artifacts>
-					<artifact name="codacy-api-scala_2.12" type="jar" ext="jar" status="successful" details="" size="109571" time="6133" location="/Users/fady.ibrahim/.ivy2/cache/com.codacy/codacy-api-scala_2.12/jars/codacy-api-scala_2.12-3.0.7.jar">
+					<artifact name="codacy-api-scala_2.12" type="jar" ext="jar" status="no" details="" size="109571" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.codacy/codacy-api-scala_2.12/jars/codacy-api-scala_2.12-3.0.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/codacy/codacy-api-scala_2.12/3.0.7/codacy-api-scala_2.12-3.0.7.jar"/>
 					</artifact>
 				</artifacts>
@@ -236,7 +236,7 @@
 				<metadata-artifact status="no" details="" size="3225" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-net_2.12/ivy-2.0.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/propensive/rapture-net_2.12/2.0.0-M8/rapture-net_2.12-2.0.0-M8.pom"/>
 				<caller organisation="com.codacy" name="codacy-api-scala_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="3.0.7"/>
 				<artifacts>
-					<artifact name="rapture-net_2.12" type="jar" ext="jar" status="successful" details="" size="219242" time="8806" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-net_2.12/jars/rapture-net_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-net_2.12" type="jar" ext="jar" status="no" details="" size="219242" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-net_2.12/jars/rapture-net_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-net_2.12/2.0.0-M8/rapture-net_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
@@ -248,7 +248,7 @@
 				<metadata-artifact status="no" details="" size="4828" time="0" location="/Users/fady.ibrahim/.ivy2/cache/commons-net/commons-net/ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-net/commons-net/2.0/commons-net-2.0.pom"/>
 				<caller organisation="com.propensive" name="rapture-net_2.12" conf="compile, runtime" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="commons-net" type="jar" ext="jar" status="successful" details="" size="197067" time="8318" location="/Users/fady.ibrahim/.ivy2/cache/commons-net/commons-net/jars/commons-net-2.0.jar">
+					<artifact name="commons-net" type="jar" ext="jar" status="no" details="" size="197067" time="0" location="/Users/fady.ibrahim/.ivy2/cache/commons-net/commons-net/jars/commons-net-2.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-net/commons-net/2.0/commons-net-2.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -260,7 +260,7 @@
 				<metadata-artifact status="no" details="" size="3391" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-io_2.12/ivy-2.0.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/propensive/rapture-io_2.12/2.0.0-M8/rapture-io_2.12-2.0.0-M8.pom"/>
 				<caller organisation="com.propensive" name="rapture-net_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="rapture-io_2.12" type="jar" ext="jar" status="successful" details="" size="359373" time="9546" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-io_2.12/jars/rapture-io_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-io_2.12" type="jar" ext="jar" status="no" details="" size="359373" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-io_2.12/jars/rapture-io_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-io_2.12/2.0.0-M8/rapture-io_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
@@ -272,7 +272,7 @@
 				<metadata-artifact status="no" details="" size="3088" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-uri_2.12/ivy-2.0.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/propensive/rapture-uri_2.12/2.0.0-M8/rapture-uri_2.12-2.0.0-M8.pom"/>
 				<caller organisation="com.propensive" name="rapture-io_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="rapture-uri_2.12" type="jar" ext="jar" status="successful" details="" size="70945" time="4544" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-uri_2.12/jars/rapture-uri_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-uri_2.12" type="jar" ext="jar" status="no" details="" size="70945" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-uri_2.12/jars/rapture-uri_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-uri_2.12/2.0.0-M8/rapture-uri_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
@@ -284,7 +284,7 @@
 				<metadata-artifact status="no" details="" size="2938" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-mime_2.12/ivy-2.0.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/propensive/rapture-mime_2.12/2.0.0-M8/rapture-mime_2.12-2.0.0-M8.pom"/>
 				<caller organisation="com.propensive" name="rapture-io_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="rapture-mime_2.12" type="jar" ext="jar" status="successful" details="" size="155728" time="7693" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-mime_2.12/jars/rapture-mime_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-mime_2.12" type="jar" ext="jar" status="no" details="" size="155728" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-mime_2.12/jars/rapture-mime_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-mime_2.12/2.0.0-M8/rapture-mime_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
@@ -296,7 +296,7 @@
 				<metadata-artifact status="no" details="" size="3094" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-codec_2.12/ivy-2.0.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/propensive/rapture-codec_2.12/2.0.0-M8/rapture-codec_2.12-2.0.0-M8.pom"/>
 				<caller organisation="com.propensive" name="rapture-io_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="rapture-codec_2.12" type="jar" ext="jar" status="successful" details="" size="50510" time="4258" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-codec_2.12/jars/rapture-codec_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-codec_2.12" type="jar" ext="jar" status="no" details="" size="50510" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-codec_2.12/jars/rapture-codec_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-codec_2.12/2.0.0-M8/rapture-codec_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
@@ -309,7 +309,7 @@
 				<caller organisation="com.codacy" name="codacy-api-scala_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="3.0.7"/>
 				<caller organisation="com.propensive" name="rapture-json-circe_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="rapture-json_2.12" type="jar" ext="jar" status="successful" details="" size="144257" time="7672" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-json_2.12/jars/rapture-json_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-json_2.12" type="jar" ext="jar" status="no" details="" size="144257" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-json_2.12/jars/rapture-json_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-json_2.12/2.0.0-M8/rapture-json_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
@@ -321,7 +321,7 @@
 				<metadata-artifact status="no" details="" size="3091" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-data_2.12/ivy-2.0.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/propensive/rapture-data_2.12/2.0.0-M8/rapture-data_2.12-2.0.0-M8.pom"/>
 				<caller organisation="com.propensive" name="rapture-json_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="rapture-data_2.12" type="jar" ext="jar" status="successful" details="" size="193526" time="8238" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-data_2.12/jars/rapture-data_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-data_2.12" type="jar" ext="jar" status="no" details="" size="193526" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-data_2.12/jars/rapture-data_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-data_2.12/2.0.0-M8/rapture-data_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
@@ -335,7 +335,7 @@
 				<caller organisation="com.propensive" name="rapture-data_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="2.0.0-M8"/>
 				<caller organisation="com.propensive" name="rapture-codec_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="rapture-core_2.12" type="jar" ext="jar" status="successful" details="" size="389783" time="9859" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-core_2.12/jars/rapture-core_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-core_2.12" type="jar" ext="jar" status="no" details="" size="389783" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-core_2.12/jars/rapture-core_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-core_2.12/2.0.0-M8/rapture-core_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
@@ -347,7 +347,7 @@
 				<metadata-artifact status="no" details="" size="2938" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-base_2.12/ivy-2.0.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/propensive/rapture-base_2.12/2.0.0-M8/rapture-base_2.12-2.0.0-M8.pom"/>
 				<caller organisation="com.propensive" name="rapture-core_2.12" conf="compile, runtime" rev="2.0.0-M8" rev-constraint-default="2.0.0-M8" rev-constraint-dynamic="2.0.0-M8" callerrev="2.0.0-M8"/>
 				<artifacts>
-					<artifact name="rapture-base_2.12" type="jar" ext="jar" status="successful" details="" size="6572" time="1140" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-base_2.12/jars/rapture-base_2.12-2.0.0-M8.jar">
+					<artifact name="rapture-base_2.12" type="jar" ext="jar" status="no" details="" size="6572" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.propensive/rapture-base_2.12/jars/rapture-base_2.12-2.0.0-M8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/propensive/rapture-base_2.12/2.0.0-M8/rapture-base_2.12-2.0.0-M8.jar"/>
 					</artifact>
 				</artifacts>
@@ -359,7 +359,7 @@
 				<metadata-artifact status="no" details="" size="7126" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.eclipse.jgit/org.eclipse.jgit/ivy-3.6.2.201501210735-r.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/3.6.2.201501210735-r/org.eclipse.jgit-3.6.2.201501210735-r.pom"/>
 				<caller organisation="com.codacy" name="codacy-api-scala_2.12" conf="compile, runtime" rev="3.6.2.201501210735-r" rev-constraint-default="3.6.2.201501210735-r" rev-constraint-dynamic="3.6.2.201501210735-r" callerrev="3.0.7"/>
 				<artifacts>
-					<artifact name="org.eclipse.jgit" type="jar" ext="jar" status="successful" details="" size="1959346" time="13640" location="/Users/fady.ibrahim/.ivy2/cache/org.eclipse.jgit/org.eclipse.jgit/jars/org.eclipse.jgit-3.6.2.201501210735-r.jar">
+					<artifact name="org.eclipse.jgit" type="jar" ext="jar" status="no" details="" size="1959346" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.eclipse.jgit/org.eclipse.jgit/jars/org.eclipse.jgit-3.6.2.201501210735-r.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/3.6.2.201501210735-r/org.eclipse.jgit-3.6.2.201501210735-r.jar"/>
 					</artifact>
 				</artifacts>
@@ -371,7 +371,7 @@
 				<metadata-artifact status="no" details="" size="6741" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom"/>
 				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="4.1.3" rev-constraint-default="4.1.3" rev-constraint-dynamic="4.1.3" callerrev="3.6.2.201501210735-r"/>
 				<artifacts>
-					<artifact name="httpclient" type="jar" ext="jar" status="successful" details="" size="352585" time="9866" location="/Users/fady.ibrahim/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.3.jar">
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="352585" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -395,7 +395,7 @@
 				<metadata-artifact status="no" details="" size="5750" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom"/>
 				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.1.4" rev-constraint-default="4.1.4" rev-constraint-dynamic="4.1.4" callerrev="4.1.3"/>
 				<artifacts>
-					<artifact name="httpcore" type="jar" ext="jar" status="successful" details="" size="181410" time="8056" location="/Users/fady.ibrahim/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.4.jar">
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="181410" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar"/>
 					</artifact>
 				</artifacts>
@@ -407,7 +407,7 @@
 				<metadata-artifact status="no" details="" size="4101" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/ivy-0.7.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.pom"/>
 				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="0.7.9" rev-constraint-default="0.7.9" rev-constraint-dynamic="0.7.9" callerrev="3.6.2.201501210735-r"/>
 				<artifacts>
-					<artifact name="JavaEWAH" type="bundle" ext="jar" status="successful" details="" size="125146" time="6881" location="/Users/fady.ibrahim/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/bundles/JavaEWAH-0.7.9.jar">
+					<artifact name="JavaEWAH" type="bundle" ext="jar" status="no" details="" size="125146" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/bundles/JavaEWAH-0.7.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.jar"/>
 					</artifact>
 				</artifacts>
@@ -440,7 +440,7 @@
 				<metadata-artifact status="no" details="" size="6586" time="0" location="/Users/fady.ibrahim/.ivy2/cache/joda-time/joda-time/ivy-2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.7/joda-time-2.7.pom"/>
 				<caller organisation="com.codacy" name="codacy-api-scala_2.12" conf="compile, runtime" rev="2.7" rev-constraint-default="2.7" rev-constraint-dynamic="2.7" callerrev="3.0.7"/>
 				<artifacts>
-					<artifact name="joda-time" type="jar" ext="jar" status="successful" details="" size="589289" time="10869" location="/Users/fady.ibrahim/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.7.jar">
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="589289" time="0" location="/Users/fady.ibrahim/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.7/joda-time-2.7.jar"/>
 					</artifact>
 				</artifacts>
@@ -452,7 +452,7 @@
 				<metadata-artifact status="no" details="" size="3127" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/org.scoverage/sbt-scoverage/ivy-1.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.12_1.0/1.5.1/sbt-scoverage-1.5.1.pom"/>
 				<caller organisation="default" name="pekko-http-oauth1-build" conf="compile-internal, compile, provided, optional" rev="1.5.1" rev-constraint-default="1.5.1" rev-constraint-dynamic="1.5.1" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-scoverage" type="jar" ext="jar" status="successful" details="" size="24320" time="922" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/org.scoverage/sbt-scoverage/jars/sbt-scoverage-1.5.1.jar">
+					<artifact name="sbt-scoverage" type="jar" ext="jar" status="no" details="" size="24320" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/org.scoverage/sbt-scoverage/jars/sbt-scoverage-1.5.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scoverage/sbt-scoverage_2.12_1.0/1.5.1/sbt-scoverage-1.5.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -464,7 +464,7 @@
 				<metadata-artifact status="no" details="" size="3536" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.12/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.12/1.3.1/scalac-scoverage-plugin_2.12-1.3.1.pom"/>
 				<caller organisation="org.scoverage" name="sbt-scoverage" conf="default, compile, runtime, master" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="1.5.1"/>
 				<artifacts>
-					<artifact name="scalac-scoverage-plugin_2.12" type="jar" ext="jar" status="successful" details="" size="173785" time="7971" location="/Users/fady.ibrahim/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.12/jars/scalac-scoverage-plugin_2.12-1.3.1.jar">
+					<artifact name="scalac-scoverage-plugin_2.12" type="jar" ext="jar" status="no" details="" size="173785" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.12/jars/scalac-scoverage-plugin_2.12-1.3.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.12/1.3.1/scalac-scoverage-plugin_2.12-1.3.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -476,7 +476,7 @@
 				<metadata-artifact status="no" details="" size="1791" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/org.foundweekends/sbt-bintray/ivy-0.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.foundweekends/sbt-bintray/scala_2.12/sbt_1.0/0.5.4/ivys/ivy.xml"/>
 				<caller organisation="default" name="pekko-http-oauth1-build" conf="compile-internal, compile, provided, optional" rev="0.5.4" rev-constraint-default="0.5.4" rev-constraint-dynamic="0.5.4" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-bintray" type="jar" ext="jar" status="successful" details="" size="119082" time="2493" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/org.foundweekends/sbt-bintray/jars/sbt-bintray-0.5.4.jar">
+					<artifact name="sbt-bintray" type="jar" ext="jar" status="no" details="" size="119082" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/org.foundweekends/sbt-bintray/jars/sbt-bintray-0.5.4.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.foundweekends/sbt-bintray/scala_2.12/sbt_1.0/0.5.4/jars/sbt-bintray.jar"/>
 					</artifact>
 				</artifacts>
@@ -488,7 +488,7 @@
 				<metadata-artifact status="no" details="" size="4516" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.7/slf4j-nop-1.7.7.pom"/>
 				<caller organisation="org.foundweekends" name="sbt-bintray" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.5.4"/>
 				<artifacts>
-					<artifact name="slf4j-nop" type="jar" ext="jar" status="successful" details="" size="4090" time="615" location="/Users/fady.ibrahim/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.7.7.jar">
+					<artifact name="slf4j-nop" type="jar" ext="jar" status="no" details="" size="4090" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.7.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.7/slf4j-nop-1.7.7.jar"/>
 					</artifact>
 				</artifacts>
@@ -500,7 +500,7 @@
 				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.foundweekends/bintry_2.12/ivy-0.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/foundweekends/bintry_2.12/0.5.2/bintry_2.12-0.5.2.pom"/>
 				<caller organisation="org.foundweekends" name="sbt-bintray" conf="compile" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="0.5.4"/>
 				<artifacts>
-					<artifact name="bintry_2.12" type="jar" ext="jar" status="successful" details="" size="247335" time="9235" location="/Users/fady.ibrahim/.ivy2/cache/org.foundweekends/bintry_2.12/jars/bintry_2.12-0.5.2.jar">
+					<artifact name="bintry_2.12" type="jar" ext="jar" status="no" details="" size="247335" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.foundweekends/bintry_2.12/jars/bintry_2.12-0.5.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/foundweekends/bintry_2.12/0.5.2/bintry_2.12-0.5.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -512,7 +512,7 @@
 				<metadata-artifact status="no" details="" size="3431" time="0" location="/Users/fady.ibrahim/.ivy2/cache/net.databinder.dispatch/dispatch-json4s-native_2.12/ivy-0.12.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-json4s-native_2.12/0.12.0/dispatch-json4s-native_2.12-0.12.0.pom"/>
 				<caller organisation="org.foundweekends" name="bintry_2.12" conf="default, compile, runtime, master" rev="0.12.0" rev-constraint-default="0.12.0" rev-constraint-dynamic="0.12.0" callerrev="0.5.2"/>
 				<artifacts>
-					<artifact name="dispatch-json4s-native_2.12" type="jar" ext="jar" status="successful" details="" size="7394" time="692" location="/Users/fady.ibrahim/.ivy2/cache/net.databinder.dispatch/dispatch-json4s-native_2.12/jars/dispatch-json4s-native_2.12-0.12.0.jar">
+					<artifact name="dispatch-json4s-native_2.12" type="jar" ext="jar" status="no" details="" size="7394" time="0" location="/Users/fady.ibrahim/.ivy2/cache/net.databinder.dispatch/dispatch-json4s-native_2.12/jars/dispatch-json4s-native_2.12-0.12.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-json4s-native_2.12/0.12.0/dispatch-json4s-native_2.12-0.12.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -524,7 +524,7 @@
 				<metadata-artifact status="no" details="" size="2802" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-native_2.12/ivy-3.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.4.2/json4s-native_2.12-3.4.2.pom"/>
 				<caller organisation="net.databinder.dispatch" name="dispatch-json4s-native_2.12" conf="compile, runtime" rev="3.4.2" rev-constraint-default="3.4.2" rev-constraint-dynamic="3.4.2" callerrev="0.12.0"/>
 				<artifacts>
-					<artifact name="json4s-native_2.12" type="jar" ext="jar" status="successful" details="" size="68650" time="3019" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-native_2.12/jars/json4s-native_2.12-3.4.2.jar">
+					<artifact name="json4s-native_2.12" type="jar" ext="jar" status="no" details="" size="68650" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-native_2.12/jars/json4s-native_2.12-3.4.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.4.2/json4s-native_2.12-3.4.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -537,7 +537,7 @@
 				<caller organisation="org.json4s" name="json4s-native_2.12" conf="compile, runtime" rev="3.4.2" rev-constraint-default="3.4.2" rev-constraint-dynamic="3.4.2" callerrev="3.4.2"/>
 				<caller organisation="net.databinder.dispatch" name="dispatch-json4s-native_2.12" conf="compile, runtime" rev="3.4.2" rev-constraint-default="3.4.2" rev-constraint-dynamic="3.4.2" callerrev="0.12.0"/>
 				<artifacts>
-					<artifact name="json4s-core_2.12" type="jar" ext="jar" status="successful" details="" size="500095" time="10459" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-core_2.12/jars/json4s-core_2.12-3.4.2.jar">
+					<artifact name="json4s-core_2.12" type="jar" ext="jar" status="no" details="" size="500095" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-core_2.12/jars/json4s-core_2.12-3.4.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.12/3.4.2/json4s-core_2.12-3.4.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -561,7 +561,7 @@
 				<metadata-artifact status="no" details="" size="2657" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-scalap_2.12/ivy-3.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/3.4.2/json4s-scalap_2.12-3.4.2.pom"/>
 				<caller organisation="org.json4s" name="json4s-core_2.12" conf="compile, runtime" rev="3.4.2" rev-constraint-default="3.4.2" rev-constraint-dynamic="3.4.2" callerrev="3.4.2"/>
 				<artifacts>
-					<artifact name="json4s-scalap_2.12" type="jar" ext="jar" status="successful" details="" size="354486" time="9556" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-scalap_2.12/jars/json4s-scalap_2.12-3.4.2.jar">
+					<artifact name="json4s-scalap_2.12" type="jar" ext="jar" status="no" details="" size="354486" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-scalap_2.12/jars/json4s-scalap_2.12-3.4.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/3.4.2/json4s-scalap_2.12-3.4.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -573,7 +573,7 @@
 				<metadata-artifact status="no" details="" size="2648" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-ast_2.12/ivy-3.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.12/3.4.2/json4s-ast_2.12-3.4.2.pom"/>
 				<caller organisation="org.json4s" name="json4s-core_2.12" conf="compile, runtime" rev="3.4.2" rev-constraint-default="3.4.2" rev-constraint-dynamic="3.4.2" callerrev="3.4.2"/>
 				<artifacts>
-					<artifact name="json4s-ast_2.12" type="jar" ext="jar" status="successful" details="" size="85125" time="5470" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-ast_2.12/jars/json4s-ast_2.12-3.4.2.jar">
+					<artifact name="json4s-ast_2.12" type="jar" ext="jar" status="no" details="" size="85125" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.json4s/json4s-ast_2.12/jars/json4s-ast_2.12-3.4.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.12/3.4.2/json4s-ast_2.12-3.4.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -585,7 +585,7 @@
 				<metadata-artifact status="no" details="" size="3126" time="0" location="/Users/fady.ibrahim/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.12/ivy-0.12.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.12/0.12.0/dispatch-core_2.12-0.12.0.pom"/>
 				<caller organisation="net.databinder.dispatch" name="dispatch-json4s-native_2.12" conf="compile, runtime" rev="0.12.0" rev-constraint-default="0.12.0" rev-constraint-dynamic="0.12.0" callerrev="0.12.0"/>
 				<artifacts>
-					<artifact name="dispatch-core_2.12" type="jar" ext="jar" status="successful" details="" size="186084" time="8062" location="/Users/fady.ibrahim/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.12/jars/dispatch-core_2.12-0.12.0.jar">
+					<artifact name="dispatch-core_2.12" type="jar" ext="jar" status="no" details="" size="186084" time="0" location="/Users/fady.ibrahim/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.12/jars/dispatch-core_2.12-0.12.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.12/0.12.0/dispatch-core_2.12-0.12.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -597,7 +597,7 @@
 				<metadata-artifact status="no" details="" size="6743" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.ning/async-http-client/ivy-1.9.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ning/async-http-client/1.9.11/async-http-client-1.9.11.pom"/>
 				<caller organisation="net.databinder.dispatch" name="dispatch-core_2.12" conf="compile, runtime" rev="1.9.11" rev-constraint-default="1.9.11" rev-constraint-dynamic="1.9.11" callerrev="0.12.0"/>
 				<artifacts>
-					<artifact name="async-http-client" type="jar" ext="jar" status="successful" details="" size="555900" time="11013" location="/Users/fady.ibrahim/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.11.jar">
+					<artifact name="async-http-client" type="jar" ext="jar" status="no" details="" size="555900" time="0" location="/Users/fady.ibrahim/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.11.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ning/async-http-client/1.9.11/async-http-client-1.9.11.jar"/>
 					</artifact>
 				</artifacts>
@@ -641,7 +641,7 @@
 				<metadata-artifact status="no" details="" size="7197" time="0" location="/Users/fady.ibrahim/.ivy2/cache/io.netty/netty/ivy-3.10.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.0.Final/netty-3.10.0.Final.pom"/>
 				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="3.10.0.Final" rev-constraint-default="3.10.0.Final" rev-constraint-dynamic="3.10.0.Final" callerrev="1.9.11"/>
 				<artifacts>
-					<artifact name="netty" type="bundle" ext="jar" status="successful" details="" size="1308395" time="13079" location="/Users/fady.ibrahim/.ivy2/cache/io.netty/netty/bundles/netty-3.10.0.Final.jar">
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1308395" time="0" location="/Users/fady.ibrahim/.ivy2/cache/io.netty/netty/bundles/netty-3.10.0.Final.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.0.Final/netty-3.10.0.Final.jar"/>
 					</artifact>
 				</artifacts>
@@ -665,14 +665,14 @@
 				<metadata-artifact status="no" details="" size="3095" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.softwaremill.clippy/plugin-sbt/ivy-0.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/clippy/plugin-sbt_2.12_1.0/0.5.3/plugin-sbt-0.5.3.pom"/>
 				<caller organisation="default" name="pekko-http-oauth1-build" conf="compile-internal, compile, provided, optional" rev="0.5.3" rev-constraint-default="0.5.3" rev-constraint-dynamic="0.5.3" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="plugin-sbt" type="jar" ext="jar" status="successful" details="" size="14698" time="899" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.softwaremill.clippy/plugin-sbt/jars/plugin-sbt-0.5.3.jar">
+					<artifact name="plugin-sbt" type="jar" ext="jar" status="no" details="" size="14698" time="0" location="/Users/fady.ibrahim/.ivy2/cache/scala_2.12/sbt_1.0/com.softwaremill.clippy/plugin-sbt/jars/plugin-sbt-0.5.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/clippy/plugin-sbt_2.12_1.0/0.5.3/plugin-sbt-0.5.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20240506193923" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.0" status="integration" pubdate="20240507153709" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="pekko-http-oauth1-build" conf="compile-internal, compile, provided, optional" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>

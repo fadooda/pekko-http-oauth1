@@ -1,8 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mOAuth1AuthenticationDirectiveTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mOAuth1AuthenticationDirective[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should authenticate successfully on a non-forwarded req[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should authenticate successfully on a forwarded request with appropriate x-forwarder-proto header[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should fail authenticating on a forwarded request missing the x-forwarder-proto header[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should authenticate successfully if the signed url contains a url parameter[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should authenticate successfully if the signed url contains headers[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should authenticate successfully if the signed request contains body[0m[0m

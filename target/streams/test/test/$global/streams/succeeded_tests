@@ -1,6 +1,0 @@
-#Successful Tests
-#Mon May 06 19:50:19 EDT 2024
-com.github.dafutils.authentication.OAuthAuthenticatorFactoryTest=1715039419202
-com.github.dafutils.authentication.OauthSignatureParserTest=1715039418952
-util.UnitTestSpec=1715039418796
-com.github.dafutils.authentication.OAuth1AuthenticationDirectiveTest=1715039419807

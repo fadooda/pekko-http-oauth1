@@ -1,7 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mOAuthAuthenticatorFactoryTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mOAuthAuthenticatorFactory[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should authenticate successfully if the server generated signature matches the one of the incoming request[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should fail to authenticate if the server generated signature does not match the one of the incoming request[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should fail to authenticate if the server generated signature does not contain all required OAuth parameters[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should fail authentication if no credentials are provided[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should fail authentication if the timestamp has expired[0m[0m

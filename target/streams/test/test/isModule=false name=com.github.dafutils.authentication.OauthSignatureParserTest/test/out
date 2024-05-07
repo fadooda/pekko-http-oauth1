@@ -1,3 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mOauthSignatureParserTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mOauthSignatureParser[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should parse an Oauth header where parameters are separated by spaces[0m[0m

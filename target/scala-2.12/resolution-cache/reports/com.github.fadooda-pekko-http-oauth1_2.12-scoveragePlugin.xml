@@ -4,10 +4,10 @@
 	<info
 		organisation="com.github.fadooda"
 		module="pekko-http-oauth1_2.12"
-		revision="fa3dbc5f+20240506-1950-SNAPSHOT"
+		revision="a0587ef9+20240507-1537-SNAPSHOT"
 		conf="scoveragePlugin"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20240506195004"/>
+		date="20240507153714"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

@@ -4,10 +4,10 @@
 	<info
 		organisation="com.github.fadooda"
 		module="pekko-http-oauth1_2.12"
-		revision="fa3dbc5f+20240506-1950-SNAPSHOT"
+		revision="a0587ef9+20240507-1537-SNAPSHOT"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20240506195004"/>
+		date="20240507153714"/>
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.12.7" status="release" pubdate="20180927043542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
@@ -28,7 +28,7 @@
 			<revision name="1.0.1" status="release" pubdate="20240207075123" resolver="sbt-chain" artresolver="sbt-chain" homepage="" extra-info.apiURL="https://pekko.apache.org/api/pekko-http/1.0.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3268" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.apache.pekko/pekko-http_2.12/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pekko/pekko-http_2.12/1.0.1/pekko-http_2.12-1.0.1.pom"/>
-				<caller organisation="com.github.fadooda" name="pekko-http-oauth1_2.12" conf="provided" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="fa3dbc5f+20240506-1950-SNAPSHOT"/>
+				<caller organisation="com.github.fadooda" name="pekko-http-oauth1_2.12" conf="provided" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="a0587ef9+20240507-1537-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="pekko-http_2.12" type="jar" ext="jar" status="no" details="" size="1949856" time="0" location="/Users/fady.ibrahim/.ivy2/cache/org.apache.pekko/pekko-http_2.12/jars/pekko-http_2.12-1.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pekko/pekko-http_2.12/1.0.1/pekko-http_2.12-1.0.1.jar"/>
