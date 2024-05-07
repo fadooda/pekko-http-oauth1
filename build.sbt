@@ -1,6 +1,6 @@
 import sbt.Keys.publishTo
 
-val PROJECT_HOMEPAGE_URL = "https://github.com/dafutils/pekko-http-oauth1"
+val PROJECT_HOMEPAGE_URL = "https://github.com/appdirect/pekko-http-oauth1"
 val PEKKO_HTTP_VERSION = "1.0.1"
 val PEKKO_VERSION = "1.0.2"
 val SIGNPOST_VERSION = "1.2.1.2"
@@ -54,7 +54,7 @@ lazy val projectMetadataSettings = Seq(
   scmInfo := Some(
     ScmInfo(
       browseUrl = url(PROJECT_HOMEPAGE_URL),
-      connection = "scm:git:git@github.com:dafutils/pekko-http-oauth1.git"
+      connection = "scm:git:git@github.com:appdirect/pekko-http-oauth1.git"
     )
   ),
   developers := List(
@@ -74,7 +74,7 @@ lazy val pekkohttpoauth1 = (project in file("."))
   .settings(
     scalaVersion := "2.12.7",
 
-    organization := "com.github.fadooda",
+    organization := "com.github.appdirect",
 
     name := "pekko-http-oauth1",
 
